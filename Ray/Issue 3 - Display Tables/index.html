@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+</head>
+<body>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            margin: auto;
+        }
+       th, td {
+            border: 2px solid black;
+            padding: 3px;
+            text-align: center;
+        }
+        table img {
+            width: 50px;
+        }
+        </style>
+    <table>
+        <caption><h2>Buy Our Stuff</h2></caption>
+        <tr>
+            <th>Image</th>
+            <th>Product Name</th>
+            <th>Short Description</th>
+            <th>Long Description</th>
+            <th>Quantity Selector</th>
+            <th>Price</th>
+            <th class="button">Add</th>
+        </tr>
+        <tr>
+            <td><img src="./camera.png"></td>
+            <td>Camera</td>
+            <td>A high-quality digital camera for capturing stunning photos and videos.</td>
+            <td>A professional-grade digital camera featuring high-resolution imaging, advanced autofocus, and a range of manual controls to enhance your photography skills. Perfect for both beginners and experts.</td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Small</td>
+                        <td>$100</td>
+                    <tr>
+                        <td>Medium</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>$200</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="./headphones.png"></td>
+            <td>Headphones</td>
+            <td>Comfortable, noise-canceling headphones for an immersive audio experience.</td>
+            <td>Over-ear, noise-canceling headphones designed for superior sound quality and comfort. Ideal for music lovers, gamers, and professionals who need distraction-free listening.</td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Small</td>
+                        <td>$100</td>
+                    <tr>
+                        <td>Medium</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>$200</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                </table>
+            </td>
+        </tr>
+       
+        <tr>
+            <td><img src="./laptop.png"></td>
+            <td>Laptop</td>
+            <td>A powerful and lightweight laptop for work, gaming, or entertainment.</td>
+            <td>A high-performance laptop with a sleek design, powerful processor, and long battery life. Great for students, professionals, and gamers who need reliability on the go.</td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Small</td>
+                        <td>$100</td>
+                    <tr>
+                        <td>Medium</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>$200</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                </table>
+            </td>
+        </tr>
+       
+        <tr>
+            <td><img src="./smartphone.png"></td>
+            <td>iPhone</td>
+            <td>A sleek and advanced smartphone with cutting-edge technology.</td>
+            <td>A feature-packed smartphone offering an intuitive user experience, a stunning display, and a powerful camera system. Delivers seamless connectivity and top-tier security.</td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Small</td>
+                        <td>$100</td>
+                    <tr>
+                        <td>Medium</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>$200</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                </table>
+            </td>
+        </tr>
+       
+        <tr>
+            <td><img src="./smartwatch.png"></td>
+            <td>Smartwatch</td>
+            <td>A stylish smartwatch with health tracking and notifications.</td>
+            <td>A modern smartwatch equipped with fitness tracking, heart rate monitoring, and smartphone notifications. Perfect for staying connected and maintaining an active lifestyle.</td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Small</td>
+                        <td>$100</td>
+                    <tr>
+                        <td>Medium</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>$200</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                </table>
+            </td>
+        <tr>
+            <td><img src="./sneakers.png"></td>
+            <td>Sneakers</td>
+            <td>Trendy and comfortable sneakers for daily wear and sports.</td>
+            <td>Lightweight and stylish sneakers designed for comfort and performance. Whether for casual wear or athletic use, they offer excellent support and durability.</td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" id="quantity" name="quantity" min="0" max="100"> </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Small</td>
+                        <td>$100</td>
+                    <tr>
+                        <td>Medium</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>$200</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                    <tr>
+                        <td><input type="submit" id="submit" name="submit"> </td>
+                    <tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption><h2>Event Schedule</h2></caption>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Stormwater</td>
+            <td>Convention Center</td>
+            <td>8:00AM</td>
+            <td>10:00AM</td>
+            <td>Rainwater harvesting</td>
+        </tr>
+        <tr>
+            <td>Wastewater</td>
+            <td>Convention Center</td>
+            <td>10:00AM</td>
+            <td>12:00PM</td>
+            <td>Phosphorus reclamation</td>
+        </tr>
+        <tr>
+            <td>Lunch</td>
+            <td>Convention Center</td>
+            <td>12:00PM</td>
+            <td>1:00PM</td>
+            <td>Lunch</td>
+        </tr>
+        <tr>
+            <td>Potable water</td>
+            <td>Convention Center</td>
+            <td>1:00PM</td>
+            <td>3:00PM</td>
+            <td>Eathquake resilience</td>
+        </tr>
+        <tr>
+            <td>Aquifer storage</td>
+            <td>Convention Center</td>
+            <td>3:00PM</td>
+            <td>5:00PM</td>
+            <td>Water reclamation techniques</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>Restaurant Menu</caption>
+        <tr>
+            <th>Dish</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Meal</th>
+        </tr>
+        <tr>
+            <td>Potatoes and Eggs</td>
+            <td>Yukon potatoes and 2 scrambled eggs</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Small: $7.00</td>
+                    <tr>
+                        <td>Medium: $10.00</td>
+                    </tr>
+                        <td>Large: $12.00</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Breakfast</td>
+            <tr>
+                <td>Ham on Rye</td>
+                <td>Ham and swiss cheese on rye with potatoe salad</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Small: $8.00</td>
+                        <tr>
+                            <td>Medium: $11.00</td>
+                        </tr>
+                            <td>Large: $13.00</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Lunch</td>
+                <tr>
+                    <td>Steak and potatoe</td>
+                    <td>Angus steak and baked potatoe</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Small: $15.00</td>
+                            <tr>
+                                <td>Medium: $18.00</td>
+                            </tr>
+                                <td>Large: $21.00</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Dinner</td>
+                </td>
+    </table>
+    <hr>
+    <table>
+        <caption>Class Timetable</caption>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr>
+            <td>8:00AM</td>
+            <td colspan="5">GitHub issues</td>
+        </tr>
+        <tr>
+            <td>9:00AM</td>
+            <td colspan="5">GitHub issues</td>
+        </tr>
+        <tr>
+            <td>10:00AM</td>
+            <td colspan="5">GitHub issues</td>
+        </tr>
+        <tr>
+            <td>11:00AM</td>
+            <td colspan="5">GitHub issues</td>
+        </tr>
+        <tr>
+            <td>12:00PM</td>
+            <td colspan="5">Lunch</td>
+        </tr>
+        <tr>
+            <td>1:00PM</td>
+            <td colspan="5">GitHub issues</td>
+        </tr>
+        <tr>
+            <td>2:00PM</td>
+            <td colspan="5">GitHub issues</td>
+        </tr>
+        <tr>
+            <td>3:00PM</td>
+            <td colspan="5">IT 210</td>
+        </tr>
+        <tr>
+            <td>4:00PM</td>
+            <td colspan="5">IT 220</td>
+        </tr>
+        <tr>
+            <td>5:00PM</td>
+            <td colspan="5">Free Time!</td>
+            </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+

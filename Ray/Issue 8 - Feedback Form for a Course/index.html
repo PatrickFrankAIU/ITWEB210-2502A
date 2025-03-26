@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Boutique Hotel</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Add Booking Information</legend>
+            <br>
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="checkIn">Check In Date:</label>
+                <input type="date" name="checkIn" id="checkIn" required>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="checkOut">Check Out Date:</label>
+                <input type="date" name="checkOut" id="checkOut" required>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="room">Room Type:</label>
+                <select id="room" required>
+                    <option value="Single">Single</option>
+                    <option value="Double">Double</option>
+                    <option value="Suite">Suite</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="requests">Special Requests:</label>
+                <textarea id="requests" rows="5" cols="30"></textarea>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="eta">Estimated Time of Arrival:</label>
+                <input type="time" name="eta" id="eta">
+            </div>
+        </fieldset>
+            <br>
+            <button type="submit" id="submit">Book Now</button>
+            
+            
+            
+            
+        </form>
+        
+        
+        
+        
+    </body>
+    </html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="color">Choose Product Color:</label>
+        <input type="color" id="color" name="color">
+        <br>
+        <br>
+        <br>
+        <label for="features">Additional Features:</label>
+        <br>
+        <label for="features">Use Ctrl (Cmd on Mac) to select multiple options</label>
+        <br>
+        <select id="features" name="features" multiple>
+            <option value="extraBattery">Extra Battery</option>
+            <option value="carryingCase">Carrying Case</option>
+            <option value="screenProtector">Screen Protector</option>
+            <option value="extendedWarranty">Extended Warranty</option>
+        </select>
+        <br>
+        <br>
+        <label for="instructions">Instructions (Format: ABC-123):</label>
+        <input type="text" id="instructions" name="instructions" pattern="[A-Z]{3}-[0-9]{3}"
+            placeholder="ABC-123">
+        <br>
+        <br>
+        <label for="search">Search for Products:</label>
+        <input type="search" id="search" name="search">
+        <br>
+        <br>
+        <button type="submit">Place Order</button>
+    </form>
+</body>
+</html>

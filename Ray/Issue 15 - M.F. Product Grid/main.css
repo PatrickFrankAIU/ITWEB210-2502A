@@ -1,0 +1,120 @@
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imageCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    border: 3px solid green;
+
+    margin-bottom: 10px;
+}
+
+.imageCard img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(115, 115, 170);
+    color: white;
+    padding: 2px;
+}
+
+@media (min-width: 600px) {
+    .imageContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    .imageCard {
+        width: 100%;
+        height: auto;
+    }
+
+    .product {
+        font-size: 1.4rem;
+    }
+
+    .price {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 2em;
+        padding: 5px;
+    }
+
+    p {
+        padding: 0 20px;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .imageContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        padding: 20px;
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    .imageCard {
+        width: 100%;
+        height: auto;
+    }
+
+    .imageCard:hover {
+        background-color: lightblue;
+        opacity: 0.6;
+        transition: opacity 0.3s ease;
+    }
+
+    .product {
+        font-size: 1.6rem;
+    }
+
+    .price {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        padding: 5px;
+    }
+
+    p {
+        padding: 0 20px;
+    }
+
+    footer {
+        font-size: 1.4rem;
+    }
+}

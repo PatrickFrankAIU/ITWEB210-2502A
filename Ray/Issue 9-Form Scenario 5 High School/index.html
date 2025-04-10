@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>HS Club Membership Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="grade">Grade Level:</label>
+        <select id="grade" name="gradeLevel" required>
+            <option value="9th Grade">9th Grade</option>
+            <option value="10th Grade">10th Grade</option>
+            <option value="11th Grade">11th Grade</option>
+            <option value="12th Grade">12th Grade</option>
+        </select>
+        <br>
+        <br>
+        <label for="shirt">T-Shirt Size:</label>
+        <select id="shirt" name="shirt">
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="Extra Large">Extra Large</option>
+        </select>
+        <br>
+        <br>
+        <label for="interests">Your Interests:</label>
+        <textarea id="interests" name="interests" rows="8" cols="40"
+            placeholder="Tell us about your interests related to this club."></textarea>
+            <br>
+            <br>
+        <input type="checkbox" id="parentConsent" name="parentConsent" required>
+        <label for="parentConsent">I have my parent or guardian's permission to join the club.</label>
+        <br>
+        <br>
+        <button type="submit">Join Club</button>
+    </form>
+</body>
+</html>
